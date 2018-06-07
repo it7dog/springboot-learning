@@ -22,3 +22,6 @@ HTTP 知识补充
   TRACE        请求服务器回送收到的请求信息，主要用于测试或诊断  
   CONNECT  保留将来使用  
   OPTIONS   请求查询服务器的性能，或者查询与资源相关的选项和需求  # springboot-learning
+
+
+@PathVariable和@RequestParam，分别是从路径里面去获取变量，也就是把路径当做变量，后者是从请求里面获取参数。 
