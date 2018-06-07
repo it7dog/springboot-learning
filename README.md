@@ -24,4 +24,18 @@ HTTP 知识补充
   OPTIONS   请求查询服务器的性能，或者查询与资源相关的选项和需求  # springboot-learning
 
 
-@PathVariable和@RequestParam，分别是从路径里面去获取变量，也就是把路径当做变量，后者是从请求里面获取参数。 
+@PathVariable和@RequestParam，分别是从路径里面去获取变量，也就是把路径当做变量，后者是从请求里面获取参数。   
+
+
+首先 上两个地址：
+
+地址①
+http://localhost:8989/SSSP/emps?pageNo=2
+
+地址②
+http://localhost:8989/SSSP/emp/7
+
+
+如果想获取地址①中的 pageNo的值 ‘2’ ，则使用  @RequestParam ，
+
+如果想获取地址②中的 emp/7 中的 ‘7 ’   则使用 @PathVariable 
